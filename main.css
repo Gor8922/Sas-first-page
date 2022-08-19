@@ -1,0 +1,54 @@
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.header input {
+  width: 400px;
+  height: 15px;
+  padding: 15px;
+  border: 3px solid red;
+  border-radius: 10px;
+  outline: none;
+}
+
+#basket {
+  color: red;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: -10px;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+/* sideBar */
+.siceBarContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: flex-end; */
+  /* justify-content: flex-end; */
+  /* margin-right: 400px; */
+}
+
+.totalDiv {
+  margin-top: 50px;
+  color: red;
+  font-weight: bold;
+}
